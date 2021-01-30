@@ -11,7 +11,7 @@ namespace Examen
 		public Venta(Vendedor vendedor, Cotizacion cotizacion)
 		{
 			this.vendedor = vendedor;
-			this.cotizacion = cot;
+			this.cotizacion = cotizacion;
 		}
 	}
 }
