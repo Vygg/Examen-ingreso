@@ -53,6 +53,10 @@
     <Compile Include="Camisas.cs" />
     <Compile Include="Cotizacion.cs" />
     <Compile Include="Cotizador.cs" />
+    <Compile Include="Historial.cs" />
+    <Compile Include="Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pantalones.cs" />
     <Compile Include="Prenda.cs" />
     <Compile Include="SobrepasaStockException.cs" />

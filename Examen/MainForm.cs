@@ -51,7 +51,7 @@ namespace Examen
 			miTienda.ListaPrendas.Add(new Pantalones(1500, Pantalones.Tipo.Chupin));
 			miTienda.ListaPrendas.Add(new Pantalones(500, Pantalones.Tipo.Comun));
 			
-			
+			ActualizarLabelStock();
 			                          
 		}
 		void ActualizarLabelStock(){

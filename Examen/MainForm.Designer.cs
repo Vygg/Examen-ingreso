@@ -37,6 +37,7 @@ namespace Examen
 		private System.Windows.Forms.Label nombreVendedor;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label codigoVendedor;
+		private System.Windows.Forms.LinkLabel linkHistorial;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -82,6 +83,7 @@ namespace Examen
 			this.nombreVendedor = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.codigoVendedor = new System.Windows.Forms.Label();
+			this.linkHistorial = new System.Windows.Forms.LinkLabel();
 			this.groupPrenda.SuspendLayout();
 			this.groupBox1.SuspendLayout();
 			this.groupCalidad.SuspendLayout();
@@ -306,11 +308,21 @@ namespace Examen
 			this.codigoVendedor.TabIndex = 17;
 			this.codigoVendedor.Text = "CódigoVendedor";
 			// 
+			// linkHistorial
+			// 
+			this.linkHistorial.Location = new System.Drawing.Point(293, 44);
+			this.linkHistorial.Name = "linkHistorial";
+			this.linkHistorial.Size = new System.Drawing.Size(119, 23);
+			this.linkHistorial.TabIndex = 18;
+			this.linkHistorial.TabStop = true;
+			this.linkHistorial.Text = "Historial Cotizaciones";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(422, 327);
+			this.Controls.Add(this.linkHistorial);
 			this.Controls.Add(this.codigoVendedor);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.nombreVendedor);
