@@ -6,3 +6,4 @@ C:\Users\Facu\Documents\SharpDevelop Projects\Examen\Examen\obj\Debug\Examen.exe
 C:\Users\Facu\Documents\SharpDevelop Projects\Examen\Examen\obj\Debug\Examen.pdb
 C:\Users\Facu\Documents\SharpDevelop Projects\Examen\Examen\obj\Debug\Examen.MainForm.resources
 C:\Users\Facu\Documents\SharpDevelop Projects\Examen\Examen\obj\Debug\Examen.csproj.GenerateResource.Cache
+C:\Users\Facu\Documents\SharpDevelop Projects\Examen\Examen\obj\Debug\Examen.Historial.resources

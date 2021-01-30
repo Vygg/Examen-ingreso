@@ -128,6 +128,11 @@ namespace Examen
 		{
 	
 		}
+		void LinkHistorialLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			Historial nuevoHist = new Historial(miVendedor);
+			nuevoHist.Show();
+		}
 		
 	}
 }

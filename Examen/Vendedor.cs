@@ -19,7 +19,7 @@ namespace Examen
 			get;
 			set;
 		}
-		private List<Cotizacion> listaCotizaciones = new List<Cotizacion>();
+		public List<Cotizacion> listaCotizaciones = new List<Cotizacion>();
 		
 		public Cotizacion Cotizar(Prenda prenda, int cantidadUnidades, double precioBase){
 			Cotizacion cot = Cotizador.Cotizar(prenda, cantidadUnidades, precioBase,this);

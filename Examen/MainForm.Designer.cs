@@ -316,6 +316,7 @@ namespace Examen
 			this.linkHistorial.TabIndex = 18;
 			this.linkHistorial.TabStop = true;
 			this.linkHistorial.Text = "Historial Cotizaciones";
+			this.linkHistorial.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkHistorialLinkClicked);
 			// 
 			// MainForm
 			// 
